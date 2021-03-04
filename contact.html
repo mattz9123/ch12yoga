@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="contact form comment path
+    light yoga studio">
+    <title>Path of Light Yoga Studio :: Contact</title>
+    <link rel="stylesheet" href="yoga.css">
+</head>
+<body>
+    <nav>
+        <ul>
+
+            <li><a href="index.html">Home</a></li>
+            <li><a href="classes.html">Classes</a></li>
+            <li><a href="schedule.html">Schedule</a></li>
+            <li><a href="contact.html">Contact </a></li>
+        </ul>
+    </nav>
+    <header class="home">
+        <h1><a href="index.html">Path of Light Yoga Studio</a></h1>
+    </header>
+    <div id="wrapper">
+    <main>
+
+        <h2>Contact Path of Light Yoga Studio</h2>
+        <p>Required fields are marked with an asterisk *</p>
+        <form method="post" action="https://webdevbasics.net/scripts/yoga.php">
+            <label for="myName">* Name:</label><input type="text" name="myName" id="myName"
+                             required="required">
+            <label for="myEmail">* E-mail:</label><input type="email" name="myEmail" id="myEmail"
+            required="required">
+            <label for="hear">How did you hear about us?</label>
+            <input type="text" name="hear" id="hear" list="hearabout">
+            <datalist id="hearabout">
+
+                <option value="Google">Google</option>
+                <option value="Bing">Bing</option>
+                <option value="Facebook">Facebook</option>
+                <option value="Friend">Friend</option>
+                <option value="Radio Ad">Radio Ad</option>
+            </datalist>
+            <label for="myComments">* Comments:</label><textarea type="text"
+                name="myComments" id="myComments" rows="2" cols="20" required="required"></textarea>
+
+            <input type="submit" value="Send Now">
+        </form>
+
+    </main>
+    <footer>
+        <a href="privacy.html">Our Privacy Policy</a><br>
+        Copyright &copy; 2020 Path of Light Yoga Studio<br>
+        <a href="mailtomatt@zwerlein.com">matt@zwerlein.com</a>
+    </footer>
+    </div>
+</body>
+</html>
